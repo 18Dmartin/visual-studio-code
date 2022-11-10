@@ -53,14 +53,16 @@ if (h == 3){
 //Q5
 let N1 = Number(prompt("what is your first number"));
 let N2 = Number(prompt("whats your second number"));
-let add = (N1 +=N2)
-let subract = (N1 -=N2)
-let multiply = (N1 *=N2)
-let divide = (N1 /=N2)
-let modulous = (N1 %=N2)
-let sum1 = Number(prompt("what is the mathematical operation"));
-if (sum1 = "add"){
-    console.log(add) 
-}else if (sum1 = "subract"){
-    console.log(subract)
-}
+let sum1 = String(prompt("what is the mathematical operation"));
+if (sum1 =="add"){
+    console.log(N1 += N2) 
+}else if (sum1 =="subtract"){
+    console.log(N1 -=N2)
+}else if (sum1 =="multiply"){
+    console.log(N1 *= N2)
+}else if (sum1 =="divide"){
+    console.log(N1 /= N2)
+}else if (sum1 =="modulous"){
+    console.log(N1 %= N2)
+}else;
+console.log("invalid")
