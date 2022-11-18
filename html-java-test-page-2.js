@@ -97,7 +97,7 @@ console.log(--l);
 
 console.log(5 == 3);
 
-console.log(4 === 4);
+console.log(4 == 4);
 
 //not equals !=
 
@@ -304,7 +304,7 @@ default:
 
 let count1 =0;
 while(count1<10){
-    console1.log(count1);
+    console.log(count1);
     count1++; // count = count +1
 }
 
@@ -389,3 +389,58 @@ while(m<20){
 document.write("leaving loop:<br>");
 //will print all numbers from 1 to 20 excluding 5 
 
+/* the array object allows you to
+ store multiple values in a single variable
+
+ it stores a fixed size sewuntial collection
+ of ellements of the same or mixed type*/
+
+ // to create an array
+ let myarray = new Array("apples","oranges");
+ let myarray2 = ["apples","oranges"];
+
+ /*to access eleamenys of an array we use idexing.
+indexing is when you type the array name followed by
+square brackets []. the number you put between the square brakets
+is the number of the element in the array you wish to access.*/
+
+//all arrays start with the index value 0 
+document.write(myarray2[0]);//this prints apples
+document.write(myarray2[1]);// this prints oranges
+
+//to change an array element 
+//use indexing to locate the value t
+//an assingmet operation to assign a new value
+myarray2[0] = "lemon";
+document.write(myarray2[0])
+
+//VERY IMPORTANT!!!
+/* javascrift wont crash with an invalid index error.
+it will just pad array with empty spaces*/
+document.write("testing")
+document.write(myarray2[10])
+
+/* to add an element to an array you can use
+the pushing command. they will be pushed on to the
+end of the array*/
+myarray2.push("lime");
+
+// to remove the last element from an array you can use the pop command
+myarray2.pop();//this removes the last element
+
+/* to create an empty array you can use the
+new arrays() command or pair of empty 
+square brakets*/
+let myarray3 = new Array();
+let myarray4 = [];
+
+/* to use a foor loop to access the array elements
+to add elements using a loop*/
+for(let n = 0;n<10;n++){
+    myarray4[n]=n;
+} 
+document.write("<br>")
+document.write(myarray4);
+document.write("</br>");
+document.write("<br>");
+document.write(myarray4.lenght);//tells no items in the array

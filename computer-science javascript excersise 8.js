@@ -1,4 +1,4 @@
-/*
+
 console.log("Q1")
 let num = Number(prompt("what is your chosen number"))
  a = 0 
@@ -52,9 +52,8 @@ b = Math.floor(b/10)
         }else{
             console.log("nine");
         }   
-    }   
-}else if(a==4){
-*/
+
+
 
 //Q4
 let j = Number(prompt("enter number 1"));
@@ -63,4 +62,5 @@ let max = Math.max(j,k);
 for(;(max/j==Math.floor(max/j)&&max/k==Math.floor(max/k))==false;){
     max=max*2
 }
-console.log(max+" is the lcm of "+j+" and "+k);
+console.log(max+" is the lcm of "+j+" and "+k)
+    }
