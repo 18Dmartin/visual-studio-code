@@ -29,7 +29,7 @@ if(UserImput=1){
     console.log("Howdy");
 }else{
     console.log("Greetings")
-
+}
 //Q7
 console.log("Top-Left error = capital C in console.log");
 console.log("Top-Right error = all letters in capitals");
@@ -43,4 +43,4 @@ console.log("This will print 'Hello World1'");
 console.log("This will hide 'console.log(Hello World!)");
 console.log("This will return as an error");
 console.log("This will print 'Hello World!' and then 'Welcome to JavaScript' underneath it");
-console.log("This is will hide all the elements of code as a comment")
+console.log("This is will hide all the elements of code as a comment");

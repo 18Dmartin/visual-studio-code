@@ -1,4 +1,3 @@
-/*
 //1
 let N1=1;
 while(N1<=10){
@@ -13,7 +12,7 @@ do{
     N2+=2
 }while(N2<=100)
 
-/*
+
 //3
 let userNum = Number(prompt("enter a number"))
 let userPower = Number(prompt("enter what power you want"))
@@ -42,7 +41,7 @@ let result = 0;
     }
   
     console.log(result);
-*/
+
 //Q6
 let N4 = Number(prompt("what is ur number"))
 while(N4>0){
